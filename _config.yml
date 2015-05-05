@@ -12,3 +12,9 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+exclude:
+  - Capfile
+  - Gemfile
+  - Gemfile.lock
+  - config
