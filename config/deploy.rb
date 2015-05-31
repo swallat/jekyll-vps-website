@@ -3,9 +3,7 @@ lock "3.4.0"
 
 # Application name and deployment location.
 #
-# The repository URL is not used locally, so no need to change it yet. The
-# deployment location and application name are from the name used in part one
-# of the series, so be sure to update if you used a different name.
+# You should update these variable for your repository and hostname.
 set :repo_url,    "https://github.com/tristandunn/jekyll-vps-website.git"
 set :deploy_to,   "/var/www/example.com"
 set :application, "example"
