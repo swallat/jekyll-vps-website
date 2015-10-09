@@ -1,7 +1,8 @@
 source "https://rubygems.org"
 
-gem "jekyll",       "2.5.3"
-gem "therubyracer", "0.12.2"
+gem "jekyll",        "2.5.3"
+gem "jekyll-assets", "0.14.0"
+gem "therubyracer",  "0.12.2"
 
 group :development do
   gem "capistrano",         "3.4.0"
