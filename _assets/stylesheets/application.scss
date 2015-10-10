@@ -1,0 +1,10 @@
+@import "bourbon";
+
+body {
+  img {
+    @include size(160px 80px);
+
+    margin: 32px auto;
+    display: block;
+  }
+}
