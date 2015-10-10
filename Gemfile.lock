@@ -3,6 +3,9 @@ GEM
   specs:
     addressable (2.3.8)
     blankslate (2.1.2.4)
+    bourbon (4.2.5)
+      sass (~> 3.4)
+      thor (~> 0.19)
     capistrano (3.4.0)
       i18n
       rake (>= 10.0.0)
@@ -62,6 +65,7 @@ GEM
       sass (~> 3.2)
     jekyll-watch (1.2.1)
       listen (~> 2.7)
+    json (1.8.3)
     kramdown (1.7.0)
     libv8 (3.16.14.7)
     liquid (2.6.2)
@@ -107,23 +111,29 @@ GEM
     therubyracer (0.12.2)
       libv8 (~> 3.16.14.0)
       ref
+    thor (0.19.1)
     tilt (1.4.1)
     timers (4.0.1)
       hitimes
     toml (0.1.2)
       parslet (~> 1.5.0)
+    uglifier (2.7.2)
+      execjs (>= 0.3.0)
+      json (>= 1.8.0)
     yajl-ruby (1.2.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  bourbon (= 4.2.5)
   capistrano (= 3.4.0)
   capistrano-bundler (= 1.1.4)
   capistrano-rbenv (= 2.0.3)
   jekyll (= 2.5.3)
   jekyll-assets (= 0.14.0)
   therubyracer (= 0.12.2)
+  uglifier (= 2.7.2)
 
 BUNDLED WITH
    1.10.6

@@ -18,3 +18,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - config
+
+assets:
+  cache: true
+  js_compressor: uglifier
+  css_compressor: sass
